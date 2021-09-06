@@ -2,5 +2,9 @@
 using namespace std;
 int main()
 {
-    cout << "Hello World!\n";
+    int x;
+    cin >> x;
+    if (x == 0) {
+        cout << "Hello World!\n";
+    }
 }
